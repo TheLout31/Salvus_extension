@@ -1,39 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap');
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
 :root {
-    --primary-color: #ff3b3f;
-    --primary-color-hover: #FF6E72;
-    --secondary-color: #caebf2;
-    --secondary-color: #3BFFFB;
-    --background-color: #efefef;
-    --text-color-primary: #1C1917;
-    --text-color-secondary: #F8FAFC;
-    --accent-color: #a9a9a9;
-    --border-color: #e5e7eb;
-    --success: #4ade80;
-    --error: #f87171;
-    --warning: #fde047;
-    --info: #bfdbfe;
-    --green-badge: #059669;
-    --red-badge: #dc2626;
-    --yellow-badge: #facc15;
-    --btn-disable-color: #818cf8;
-    --card-background: #F8FAFC;
-    --star-color: #fde047;
-    --overlay: rgba(0, 0, 0, .3);
-    --btn-retry-text-color: #6366f1;
-    --toast-background-color: #27272a;
+    --text-color-primary: #F8FAFC;
 }
 
 * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
 body {
     line-height: 1.5;
     letter-spacing: .8px;
+}
+
+.cursor:hover{
+    cursor: pointer;
 }
 
 
@@ -86,6 +70,10 @@ body {
     gap: 1.25rem;
 }
 
+.gap-sm {
+    gap: 10px;
+}
+
 .relative {
     position: relative;
 }
@@ -127,7 +115,7 @@ body {
 }
 
 .heading-1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 4rem;
 }
 
