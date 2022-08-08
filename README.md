@@ -39,13 +39,13 @@ Clone the project by adding the following command in the terminal.
 Make sure your have git installed and added to path.
 
 ```bash
-  git clone https://github.com/prakashsakari/extensry.git
+  git clone https://github.com/prakashsakari/browser-extension.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd extensry
+  cd browser-extension
 ```
 
 Install dependencies
