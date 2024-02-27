@@ -123,7 +123,7 @@ export const Task = () => {
             </div>
             )}
             <div className="quote-container">
-                <span className="heading-3">{quote}</span>
+                <span className="heading-3">`"{quote}"`</span>
             </div>
             {isTodoOpen && <Todo />}
             <div className="todo-btn-container absolute">
