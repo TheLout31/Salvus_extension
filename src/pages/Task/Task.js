@@ -8,12 +8,13 @@ const index = Math.floor(Math.random() * quotes.length);
 const quote = quotes[index].quote;
 
 export const Task = () => {
-
+    const [quoteIndex, setQuoteIndex] = useState("");
     const [isChecked, setIsChecked] = useState(false);
     const [isTodoOpen, setIsTodoOpen] = useState(false);
 
     const {name, time, message, task, browserDispatch} = useBrowser();
 
+    
     useEffect(() => {
         const userTask = localStorage.getItem("task");
         browserDispatch({
